@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cerita Hari Lebaran</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fffde7, #f1f8e9);
+      color: #3e3e3e;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: url('https://i.pinimg.com/736x/88/c9/e1/88c9e1bfee6a107dd7f2b0cf3bf6437c.jpg') center/cover no-repeat;
+      background-blend-mode: darken;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+
+    nav {
+      background-color: #66bb6a;
+      padding: 12px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 18px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffee58;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .story {
+      background-color: #f9fbe7;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .story h2 {
+      color: #558b2f;
+      font-size: 2.2em;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      overflow-y: auto;
+      max-height: 500px;
+      padding: 10px 0;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      background: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      color: white;
+      width: 100%;
+      padding: 8px;
+      font-size: 0.9em;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 1em;
+      border-top: 3px solid #c5e1a5;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      }
+
+      .gallery img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Cerita Hari Lebaran ✨</h1>
+    <p>Suasana Penuh Kebahagiaan & Kebersamaan</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+      <li><a href="cerita.html">Tentang</a></li>
+      <li><a href="ucapan.html">Ucapan</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="story">
+      <h2>Momen Spesial di Hari Lebaran</h2>
+      <p>
+        Lebaran adalah waktu yang dinanti-nanti untuk berkumpul, bermaaf-maafan, dan merayakan kebersamaan dengan keluarga dan sahabat. Tak lengkap tanpa ketupat, opor, dan senyum hangat yang terpancar dari setiap wajah.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/25/d4/1a/25d41a9405f6a61d94cdcce20b3da482.jpg" alt="Keluarga di Hari Lebaran" />
+        <div class="caption">The Girls</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/38/b9/11/38b911e19b47b5bf289d50556703dbf3.jpg" alt="Makanan khas Lebaran" />
+        <div class="caption">Makanan khas Lebaran</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/30/2b/dd/302bdd2f269937b69af0dd5d4c89d8f3.jpg" alt="Takbiran di Masjid" />
+        <div class="caption">Momen Makan Bersama</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/e1/63/62/e1636264123bd637bb35279a5465f154.jpg" alt="Foto Lebaran 1" />
+        <div class="caption">Lebaran di Alam Terbuka</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/b1/fd/5c/b1fd5ce4d15ca56013fff9295e941396.jpg" alt="Foto Lebaran 2" />
+        <div class="caption">Me & Sister</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/45/b6/c3/45b6c34ac5b777f6cf0af1816ad30b90.jpg" alt="Foto Lebaran 3" />
+        <div class="caption">Foto Keluarga di Alam</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/ee/58/87/ee5887f49a6b4c2896c7596f77e580b4.jpg" alt="Foto Lebaran 4" />
+        <div class="caption">Father & Mother.</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.pinimg.com/736x/b1/82/5f/b1825f988d4f83b90bb624f23b6ee83d.jpg" alt="Foto Lebaran 3" />
+        <div class="caption">Suasana Salat Ied</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Cerita Lebaran by LISA SAFUTRI</p>
+  </footer>
+
+</body>
+</html>
